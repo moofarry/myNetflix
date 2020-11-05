@@ -14,13 +14,17 @@
   margin-left: 60px;
 }
 
+.login-section {
+  display: flex;
+  justify-content: center;
+}
+
 .login {
   width: 425px;
   height: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
 }
@@ -30,9 +34,6 @@
 }
 .login .login_container .login_container-tittle {
   color: white;
-}
-.login .login_container .login_container--form {
-  position: relative;
 }
 .login .login_container .login_container--form .input {
   background: #333333;
