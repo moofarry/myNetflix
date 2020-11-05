@@ -139,6 +139,13 @@
   padding: 10px 20px;
 }
 
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
